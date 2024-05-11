@@ -9,7 +9,7 @@
     <script type="text/javascript">
       if ("serviceWorker" in navigator) {
         // Register a service worker hosted at the root of the site using the default scope.
-        navigator.serviceWorker.register("owntv/assets/sw.js").then(
+        navigator.serviceWorker.register("/src/sw.js").then(
         (registration) => {
           console.log("Service worker registration succeeded:", registration);
         },
@@ -20,8 +20,8 @@
       } 
     </script>
 
-    <script type="module" crossorigin src="/owntv/assets/index-BuC9WP9z.js"></script>
-    <link rel="stylesheet" crossorigin href="/owntv/assets/index-CY-si8gQ.css">
+    <script type="module" crossorigin src="/assets/index-BuC9WP9z.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CY-si8gQ.css">
   </head>
   <body>
     <div id="root"></div>
