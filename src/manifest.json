@@ -1,0 +1,90 @@
+{
+    "background_color": "#FFFFFF",
+    "description": "Наполеон TV",
+    "display": "standalone",
+    "name": "Наполеон TV",
+    "short_name": "Наполеон",
+    "orientation": "portrait",
+    "id": "/",
+	"scope": "/",
+    "theme_color": "#1976D2",
+    "prefer_related_applications": true,
+    "related_applications": [
+        {
+			
+            "platform": "webapp",
+            "url": "https://lzabrak.github.io/owntv/"
+		}
+    ],
+	
+    "icons": [
+        {
+            "purpose": "maskable",
+            "sizes": "512x512",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "512x512",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "192x192",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "180x180",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "152x152",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "144x144",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "120x120",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "114x114",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "76x76",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "72x72",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "60x60",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        },
+        {
+            "sizes": "57x57",
+            "src": "/assets/Napoleon_icon.png",
+            "type": "image/png"
+        }
+    ],
+	"gcm_sender_id": "",
+	"gcm_user_visible_only": true,
+	"start_url": "/owntv/",
+	"permissions": [
+    "gcm"
+  ]
+	
+}
